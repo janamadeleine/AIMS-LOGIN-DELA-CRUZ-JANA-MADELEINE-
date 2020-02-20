@@ -1,0 +1,104 @@
+body {
+  font-family: Open Sans;
+  background-color: #003366;
+  }
+  
+* {
+  box-sizing: border-box;
+ 
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ffcc66;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=date], select, textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ffcc66;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color:white;
+}
+
+input[type=submit] {
+  background-color: #003366;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #003366;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #003366;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #336699;
+  color: white;
+  /*padding: 0;*/
+  margin: 12px 0;
+  border: 1px solid #ffcc66;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  width:100%;
+  background-color: #003366;
+  text-align: center;
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

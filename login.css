@@ -1,0 +1,162 @@
+body {
+  font-family: Open Sans; 
+  background:#111e6c;
+    background-attachment: fixed;
+}
+
+.sidebar {
+  margin-top:100px;
+  margin-left: 2px;
+  padding: 10px;
+  width: 200px;
+  background-color: #333669;
+  position: absolute;
+  height: 60%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.header {
+  text-indent: 10px;
+  border-bottom: 3px solid #ffcc66;
+  padding: 2px;
+  background: #333669;
+  color: white;
+}
+
+p3{
+  position: absolute;
+  left: 500px;
+  top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+p1{
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  font-size: 18px;
+
+}
+
+p2{
+  text-decoration-line: overline; 
+  position: absolute;
+  left: 100px;
+  top: 42px;
+
+}
+
+form {
+    border: 2px solid #ffcc66; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+	  width:40%; 
+	  background-color: #333669;
+	  position: relative;
+	  left: 560px;
+    	  
+}
+
+h2{
+  color:White;
+  text-align:center;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ffcc66;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333669;
+  color: #ffffff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid #ffcc66;
+  cursor: pointer;
+  width: 30%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.container {
+  padding: 16px;
+  color: white;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.footer {
+  border-top: 3px solid #ffcc66;
+  background: #333669;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-indent: 10px;
+}
+
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 400px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+
